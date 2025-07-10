@@ -3,10 +3,11 @@ def verificar_nota (nota):
         return ("Aprovado")
     elif nota < 3:
         return ("Reprovado")
-    elif 3 > nota < 5:
+    else:
+        3 > nota < 5
         return ("Recuperação")
 
-nota = input ("Qual a nota? ")
+nota = int (input ("Qual a nota? "))
 
 nota_final = verificar_nota (nota)
 print (verificar_nota(nota))
