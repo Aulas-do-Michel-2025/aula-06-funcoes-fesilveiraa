@@ -1,11 +1,7 @@
-"""
-Exercício 3 - Calculando a média de uma lista
+lista = [*map (float, input ("Digite as suas notas: ").split(","))]
 
-Escreva uma funcao chamada `calcular_media` (sem acento) que recebe uma lista com numeros
-e retorne a média dos valores dela.
+ 
+def calcular_media(lista):
+    return sum(lista) / len(lista)
 
-Exemplo de uso:
->>> print(calcular_media([0, 100, 200]))
->>> 100
-"""
-
+print (calcular_media (lista))
