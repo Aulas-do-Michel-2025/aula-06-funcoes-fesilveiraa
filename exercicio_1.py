@@ -8,5 +8,5 @@ def verificar_nota (nota):
 
 nota = input ("Qual a nota? ")
 
-nota_final = verificar_nota ()
+nota_final = verificar_nota (nota)
 print (verificar_nota)
