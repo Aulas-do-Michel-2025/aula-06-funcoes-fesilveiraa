@@ -4,7 +4,7 @@ def verificar_nota (nota):
     elif nota < 3:
         return ("Reprovado")
     else:
-        3 > nota < 5
+        3 < nota < 5
         return ("Recuperação")
 
 nota = int (input ("Qual a nota? "))
