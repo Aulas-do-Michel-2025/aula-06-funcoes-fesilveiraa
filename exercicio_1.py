@@ -6,7 +6,3 @@ def verificar_nota (nota):
     else:
         return ("Recuperação")
 
-nota = int (input ("Qual a nota? "))
-
-nota_final = verificar_nota (nota)
-print (verificar_nota(nota))
